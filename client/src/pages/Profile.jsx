@@ -7,7 +7,7 @@ function Profile() {
   };
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <h2>Profile Page</h2>
       <p><strong>Name:</strong> {user.name}</p>
       <p><strong>Email:</strong> {user.email}</p>

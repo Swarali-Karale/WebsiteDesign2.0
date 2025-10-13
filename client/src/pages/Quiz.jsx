@@ -38,7 +38,7 @@ function Quiz() {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <h2>Quiz</h2>
       {questions.map((q, i) => (
         <div key={i} className="mb-3">

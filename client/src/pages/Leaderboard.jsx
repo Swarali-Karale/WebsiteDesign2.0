@@ -8,7 +8,7 @@ const users = [
 
 export default function Leaderboard() {
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <h2 className="mb-4">Leaderboard</h2>
       <div className="list-group">
         {users.map((user, index) => (

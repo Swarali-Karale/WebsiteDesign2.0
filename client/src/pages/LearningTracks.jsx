@@ -25,7 +25,7 @@ function LearningTracks() {
   }
 
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <h2>Learning Tracks</h2>
       {lessons.map((lesson) => (
         <div key={lesson.id} className="mb-4 p-3 border rounded">

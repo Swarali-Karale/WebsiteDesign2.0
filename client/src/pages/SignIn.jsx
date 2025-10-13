@@ -22,7 +22,7 @@ function SignIn() {
 
 
   return (
-    <div className="container mt-5">
+    <div className="-fluid mt-5">
       <h2>Sign In</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">

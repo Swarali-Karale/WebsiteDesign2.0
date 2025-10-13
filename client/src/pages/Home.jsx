@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="container mt-5">
+    <div className="container-fluid mt-5">
       <h2>Welcome, Bestie pooks!</h2>
 
       <h4>Learning Progress</h4>
