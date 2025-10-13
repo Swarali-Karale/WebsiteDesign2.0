@@ -1,0 +1,42 @@
+/* General background */
+.signin-page {
+  background-color: #fffaFF;
+}
+
+/* Card styling */
+.signin-card {
+  background-color: #ffffff;
+}
+
+/* Button styles */
+.signin-btn {
+  background-color: #EC4C5F !important;
+  border: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #0D3B66 !important;
+  color: #fff;
+}
+
+.text-primary-color {
+  color: #0D3B66;
+}
+
+.social-btn {
+  background-color: #fff;
+  color: #1E1B18;
+  border: 1px solid #ccc;
+}
+
+.social-btn:hover {
+  background-color: #f1f1f1;
+}
+
+/* Footer */
+.footer {
+  background-color: #0D3B66;
+  color: #fff;
+}

@@ -15,13 +15,15 @@ function Header() {
 
         <div className="d-flex flex-grow-1 justify-content-between">
           <div className="navbar-nav">
-            <Link className="nav-link" to="/">Home</Link>
+            <Link className="nav-link" to="/landingPage">Home</Link>
+            <Link className="nav-link" to="/">Dashboard</Link>
             <Link className="nav-link" to="/learning-tracks">Learning Tracks</Link>
             <Link className="nav-link" to="/quiz">Quiz</Link>
             <Link className="nav-link" to="/signin">Sign In</Link>
             <Link className="nav-link" to="/signup">Sign Up</Link>
             <Link className="nav-link" to="/profile">Profile</Link>
             <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
+            
           </div>
 
           <button

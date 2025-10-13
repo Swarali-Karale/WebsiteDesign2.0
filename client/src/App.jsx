@@ -7,6 +7,7 @@ import LearningTracks from './pages/LearningTracks.jsx';
 import Quiz from './pages/Quiz.jsx';
 import Profile from './pages/Profile.jsx';
 import Leaderboard from './pages/Leaderboard.jsx';
+import LandingPage from './pages/LandingPage.jsx';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
+        <Route path="/landingPage" element={<LandingPage />} />
 
       </Routes>
     </>
