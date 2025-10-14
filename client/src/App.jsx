@@ -8,6 +8,7 @@ import Quiz from './pages/Quiz.jsx';
 import Profile from './pages/Profile.jsx';
 import Leaderboard from './pages/Leaderboard.jsx';
 import LandingPage from './pages/LandingPage.jsx';
+import CommunityForum from './pages/CommunityForum.jsx';
 
 
 function App() {
@@ -23,6 +24,9 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/leaderboard" element={<Leaderboard />} />
         <Route path="/landingPage" element={<LandingPage />} />
+        <Route path="/community-forum" element={<CommunityForum />} />
+
+        
 
       </Routes>
     </>

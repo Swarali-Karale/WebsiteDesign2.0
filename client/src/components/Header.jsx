@@ -23,6 +23,7 @@ function Header() {
             <Link className="nav-link" to="/signup">Sign Up</Link>
             <Link className="nav-link" to="/profile">Profile</Link>
             <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
+            <Link className="nav-link" to="/community-forum">Community Forum</Link>
             
           </div>
 
