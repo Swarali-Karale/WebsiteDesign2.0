@@ -1,0 +1,257 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+.community-page {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.forum-container {
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+/* LEFT COLUMN */
+.forum-left {
+  flex: 2.5;
+}
+
+.forum-header {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.composer {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.tag-section {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background: #f3f3f3;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.add-tag {
+  border: 1px dashed #ccc;
+  padding: 5px 10px;
+  border-radius: 8px;
+  background: none;
+  cursor: pointer;
+}
+
+.post-btn {
+  background-color: #0D3B66;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.tab-bar button {
+  border: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.tab-bar .active {
+  background: #0D3B66;
+  color: white;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  {/*color: rgb(130, 14, 14);*/}
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* POSTS */
+.post-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post-initial {
+  background: #0D3B66;
+  color: white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.post-author {
+  font-size: 13px;
+  color: #777;
+}
+
+.post-title {
+  font-weight: 600;
+}
+
+.post-preview {
+  margin-top: 8px;
+  color: #555;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.post-actions button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #555;
+}
+
+/* RIGHT COLUMN */
+.forum-right {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.sidebar-item {
+  border-top: 1px solid #eee;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.sidebar-item button {
+  background: none;
+  border: none;
+  color: #0D3B66;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.topic-tags span {
+  display: inline-block;
+  background: #f5f5f5;
+  margin: 5px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.student-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.student-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #0D3B66;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.rank {
+  color: #aaa;
+  width: 20px;
+}
+
+.reply-section {
+  margin-top: 10px;
+  border-left: 2px solid #eee;
+  padding-left: 10px;
+}
+
+.comment-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.comment-box textarea {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+  resize: none;
+}
+
+.comment-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.comment-actions button {
+  background-color: #0D3B66;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.comment-actions .cancel {
+  background-color: #ccc;
+  color: #333;
+}

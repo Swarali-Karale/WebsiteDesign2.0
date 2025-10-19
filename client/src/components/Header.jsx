@@ -11,7 +11,7 @@ function Header() {
   return (
     <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} px-4`}>
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">MyApp</Link>
+        <Link className="navbar-brand" to="/">AscendU</Link>
 
         <div className="d-flex flex-grow-1 justify-content-between">
           <div className="navbar-nav">
@@ -24,6 +24,8 @@ function Header() {
             <Link className="nav-link" to="/profile">Profile</Link>
             <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
             <Link className="nav-link" to="/community-forum">Community Forum</Link>
+            <Link className="nav-link" to="/mascot-home">Mascot Home</Link>
+
             
           </div>
 
