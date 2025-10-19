@@ -10,6 +10,7 @@ import Leaderboard from './pages/Leaderboard.jsx';
 import LandingPage from './pages/LandingPage.jsx';
 import CommunityForum from './pages/CommunityForum.jsx';
 import MascotHome from './pages/MascotHome.jsx';
+import Resources from './pages/Resources.jsx';
 
 
 function App() {
@@ -27,6 +28,8 @@ function App() {
         <Route path="/landingPage" element={<LandingPage />} />
         <Route path="/community-forum" element={<CommunityForum />} />
         <Route path="/mascot-home" element={<MascotHome />} />
+        <Route path="/resources" element={<Resources />} />
+
 
         
 

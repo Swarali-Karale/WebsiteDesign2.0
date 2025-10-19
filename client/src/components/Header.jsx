@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import logo from '../assets/logo.png';
 
 function Header() {
   const [darkMode, setDarkMode] = useState(false);
@@ -11,6 +12,8 @@ function Header() {
   return (
     <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} px-4`}>
       <div className="container-fluid">
+      <img src={logo} alt="AscendU logo" style={{ height: '100px', marginRight: '0px' }} />
+        
         <Link className="navbar-brand" to="/">AscendU</Link>
 
         <div className="d-flex flex-grow-1 justify-content-between">
@@ -25,6 +28,7 @@ function Header() {
             <Link className="nav-link" to="/leaderboard">Leaderboard</Link>
             <Link className="nav-link" to="/community-forum">Community Forum</Link>
             <Link className="nav-link" to="/mascot-home">Mascot Home</Link>
+            <Link className="nav-link" to="/resources">Resources</Link>
 
             
           </div>
