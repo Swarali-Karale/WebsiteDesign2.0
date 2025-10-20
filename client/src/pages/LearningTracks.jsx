@@ -264,7 +264,7 @@ function LearningTracks() {
                             <Link to="/notes" className="btn btn-sm btn-outline-primary">
                               Notes
                             </Link>
-                            <Link to="/video-guide" className="btn btn-sm btn-outline-info">
+                            <Link to="/video" className="btn btn-sm btn-outline-info">
                               Video Guide
                             </Link>
                             <Link to="/quiz" className="btn btn-sm btn-outline-info">
