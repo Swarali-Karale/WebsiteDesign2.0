@@ -77,7 +77,7 @@ function LandingPage() {
                   alt="Founder 1"
                 />
                 <div className="card-body">
-                  <h5 className="fw-bold mb-1">Muskan Sandhu</h5>
+                  <h5 className="fw-bold mb-1">Swarali Karale</h5>
                   <p className="text-muted">Chief Executive Officer</p>
                 </div>
               </div>
@@ -91,25 +91,12 @@ function LandingPage() {
                   alt="Founder 2"
                 />
                 <div className="card-body">
-                  <h5 className="fw-bold mb-1">Swarali Karale</h5>
+                  <h5 className="fw-bold mb-1">Yunhan Li</h5>
                   <p className="text-muted">Chief Technology Officer</p>
                 </div>
               </div>
             </div>
 
-            <div className="col-md-3">
-              <div className="card border-0 shadow-lg rounded-4 founder-card">
-                <img
-                  src="https://via.placeholder.com/200"
-                  className="card-img-top rounded-top-4"
-                  alt="Founder 3"
-                />
-                <div className="card-body">
-                  <h5 className="fw-bold mb-1">Riddhi Gadhiya</h5>
-                  <p className="text-muted">Chief Financial Officer</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

@@ -11,6 +11,7 @@ import LandingPage from './pages/LandingPage.jsx';
 import CommunityForum from './pages/CommunityForum.jsx';
 import MascotHome from './pages/MascotHome.jsx';
 import Resources from './pages/Resources.jsx';
+import Tutoring from './pages/Tutoring.jsx';
 
 
 function App() {
@@ -29,9 +30,7 @@ function App() {
         <Route path="/community-forum" element={<CommunityForum />} />
         <Route path="/mascot-home" element={<MascotHome />} />
         <Route path="/resources" element={<Resources />} />
-
-
-        
+        <Route path="/tutoring" element={<Tutoring />} />
 
       </Routes>
     </>

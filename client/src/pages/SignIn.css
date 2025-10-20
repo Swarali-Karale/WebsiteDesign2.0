@@ -40,3 +40,8 @@
   background-color: #0D3B66;
   color: #fff;
 }
+
+.container {
+  padding-bottom: 3rem; /* Adds space between card and footer */
+  padding-top: 3rem; /* Adds space between card and footer */
+}

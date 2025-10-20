@@ -14,13 +14,12 @@ function Header() {
       <div className="container-fluid">
       <img src={logo} alt="AscendU logo" style={{ height: '100px', marginRight: '0px' }} />
         
-        <Link className="navbar-brand" to="/">AscendU</Link>
+        <Link className="navbar-brand" to="/landingPage">AscendU</Link>
 
         <div className="d-flex flex-grow-1 justify-content-between">
           <div className="navbar-nav">
-            <Link className="nav-link" to="/landingPage">Home</Link>
             <Link className="nav-link" to="/">Dashboard</Link>
-            <Link className="nav-link" to="/learning-tracks">Learning Tracks</Link>
+            <Link className="nav-link" to="/learning-tracks">Math</Link>
             <Link className="nav-link" to="/quiz">Quiz</Link>
             <Link className="nav-link" to="/signin">Sign In</Link>
             <Link className="nav-link" to="/signup">Sign Up</Link>
@@ -29,6 +28,7 @@ function Header() {
             <Link className="nav-link" to="/community-forum">Community Forum</Link>
             <Link className="nav-link" to="/mascot-home">Mascot Home</Link>
             <Link className="nav-link" to="/resources">Resources</Link>
+            <Link className="nav-link" to="/tutoring">Tutoring</Link>
 
             
           </div>

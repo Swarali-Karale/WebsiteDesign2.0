@@ -1,10 +1,17 @@
 /* Page setup */
-.profile-page {
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f8f9fb;
-  min-height: 100vh;
-  position: relative;
-  padding-bottom: 2rem;
+}
+
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+  /* padding-bottom removed to eliminate space under footer */
 }
 
 .hero-section {
@@ -26,7 +33,6 @@
   line-height: 1;
   color: #fff;
 }
-
 
 /* Vertical Profile Card (rectangle) */
 .profile-card {
@@ -60,6 +66,8 @@
 .profile-content {
   margin-left: 260px; /* leave space for rectangle */
   padding: 2rem;
+  flex-grow: 1; /* fill remaining space above footer */
+  padding-bottom: 0; /* no extra bottom space */
 }
 
 .profile-content h3 {
@@ -90,4 +98,13 @@
 /* Edit Button */
 .btn-edit {
   margin-top: 1rem;
+}
+
+/* Footer always sticks to bottom if content is short */
+footer {
+  background-color: #0d3b66;
+  color: #FFFAFF;
+  width: 100%;
+  margin: 0;
+  padding: 1rem 0;
 }

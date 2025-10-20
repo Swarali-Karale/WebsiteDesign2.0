@@ -1,0 +1,21 @@
+/* Ensure html and body fill the entire viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFAFF; /* or any grayish-white you want */
+}
+
+/* Main page container */
+.algebra-page {
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFAFF; /* consistent background color */
+}
+
+/* Make container take remaining space to avoid white gaps */
+.algebra-page .container {
+  flex-grow: 1;
+  background-color: transparent; /* inherit background */
+}
