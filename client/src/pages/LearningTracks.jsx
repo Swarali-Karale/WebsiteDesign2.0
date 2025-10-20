@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./LearningTracks.css"; // optional custom styling
+import { Link } from 'react-router-dom';
 
 function LearningTracks() {
   const [completedLessons, setCompletedLessons] = useState([]);
@@ -259,14 +260,23 @@ function LearningTracks() {
                         <span>{lesson}</span>
 
                         <div className="d-flex gap-2 mt-2 mt-md-0">
-                          <button className="btn btn-sm btn-outline-primary">Notes</button>
-                          <button className="btn btn-sm btn-outline-info">Video Guide</button>
+                          <div className="d-flex gap-2 mb-2">
+                            <Link to="/notes" className="btn btn-sm btn-outline-primary">
+                              Notes
+                            </Link>
+                            <Link to="/video-guide" className="btn btn-sm btn-outline-info">
+                              Video Guide
+                            </Link>
+                            <Link to="/quiz" className="btn btn-sm btn-outline-info">
+                              Take Quiz
+                            </Link>
+                          </div>
                           <button
                             className={`btn btn-sm ${isCompleted ? "btn-dark" : "btn-primary"}`}
                             disabled={!isNext}
                             onClick={() => toggleLesson(uIndex, lIndex)}
                           >
-                            {isCompleted ? "Passed!" : "Take Quiz"}
+                            {isCompleted ? "Completed!" : "Mark as Complete"}
                           </button>
                         </div>
                       </div>
