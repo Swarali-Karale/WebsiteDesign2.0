@@ -13,7 +13,7 @@ function Header() {
     <nav className={`navbar navbar-expand-lg ${darkMode ? 'navbar-dark bg-dark' : 'navbar-light bg-light'} px-4`}>
       <div className="container-fluid">
         <Link className="navbar-brand d-flex align-items-center" to="/landingPage">
-          <img src={logo} alt="AscendU logo" style={{ height: '50px', marginRight: '8px' }} />
+          <img src={logo} alt="AscendU logo" style={{ height: '100px', marginRight: '0px' }} />
           AscendU
         </Link>
 
